@@ -27,12 +27,6 @@ Product.init(
       model: "category",
       key: "id"
   }
-}
-  id: {
-  type: DataTypes.INTEGER,
-  allowNull: false,
-  primaryKey: true,
-  autoIncrement: true
 },
   stock: {
   type: DataTypes.INTEGER,
@@ -41,6 +35,12 @@ Product.init(
   validate: {
       isNumeric: true
   }
+},
+  id: {
+  type: DataTypes.INTEGER,
+  allowNull: false,
+  primaryKey: true,
+  autoIncrement: true
 },
   },
   

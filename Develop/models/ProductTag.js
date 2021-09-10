@@ -13,7 +13,7 @@ ProductTag.init(
           model: "tag",
           key: "id"
       }
-  }
+  },
   id: {
     type: DataTypes.INTEGER,
     allowNull: false,
